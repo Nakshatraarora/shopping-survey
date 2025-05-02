@@ -580,7 +580,7 @@ def main():
     st.markdown("Analyze responses from the online shopping survey.")
 
     st.sidebar.header("Configuration")
-    default_path = "C:\\Project\\Data_Analysis_2\\daman responce.xlsx"
+    default_path = "daman responce.xlsx"
     data_path = st.sidebar.text_input("excel file path", value=default_path)
 
     if not data_path:
