@@ -1,0 +1,15 @@
+# Ignore virtual environment folder
+env/
+
+# Ignore Python cache folders
+__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore macOS Finder files (harmless even on Windows)
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+Desktop.ini
